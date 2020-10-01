@@ -1,6 +1,8 @@
 import random
 
-print("Welcome!")
+print("Name please")
+name = input()
+print("Welcome! " + name + "! This is a RPS game!" + " Choose one of them!")
 
 choices = ['R', 'P', 'S']
 computer = random.choice(choices)
