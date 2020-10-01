@@ -21,7 +21,6 @@ while guessesTaken < 6:
     guess = input()
     #int를 넣어야 하는 이유가 넣어햐 하는 값이 숫자로 표기해야 하기 때문만인가요?
     guess = int(guess)
-
     guessesTaken = guessesTaken + 1
 
     if guess < number:
